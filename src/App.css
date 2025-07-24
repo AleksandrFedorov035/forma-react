@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#root {
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form button,
+input {
+  border-radius: 8px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.form button {
+  padding: 7px 20px;
+  margin-top: 26px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.form button:hover {
+  background-color: #f4f4f4;
+}
+
+
+table {
+  width: 100%;
+  padding: 0 300px;
+  margin-top: 50px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr button {
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
