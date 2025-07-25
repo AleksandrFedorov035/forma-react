@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 const Table = ({ trainings, setTrainings }) => {
     const onClick = (index) => {
         const newTrainings = [...trainings];
